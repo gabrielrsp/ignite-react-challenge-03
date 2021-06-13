@@ -34,9 +34,13 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   const addProduct = async (productId: number) => {
     try {
-      // TODO
+
+      
+      
+      setCart([...cart, ])
+      localStorage.setItem('@RocketShoes:cart', JSON.stringify(cart) )
     } catch {
-      // TODO
+      alert('FALHA AO ADICIONAR AO CARRINHO')
     }
   };
 
