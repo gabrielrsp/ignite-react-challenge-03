@@ -67,7 +67,7 @@ const Home = (): JSX.Element => {
                 {/* {cartItemsAmount[product.id] || 0} */} 2
               </div>
 
-              <span>ADICIONAR AO CARRINHO</span>
+              <span>ADICIONAR AO C ARRINHO</span>
             </button>
           </li>
         )
